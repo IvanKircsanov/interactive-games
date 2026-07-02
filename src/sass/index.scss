@@ -1,2 +1,13 @@
+// Example
 @import './common';
 @import './example';
+
+// Base Scss
+
+@import './base/container';
+@import './base/reset';
+@import './base/typografik';
+
+// layout Scss
+
+@import './layout/header';
