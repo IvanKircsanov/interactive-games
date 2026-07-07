@@ -1,12 +1,56 @@
 .header-structure {
     display: flex;
     justify-content: space-between;
-}
-.header-first-list {
-    display: flex;
-    justify-content: space-between;
-    width: 372px;
-}
-.header-first-item-list {
-    display: none;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    background-color: beige;
+
+
+
+    .header-first-list {
+        display: flex;
+        justify-content: space-between;
+        width: 372px;
+        align-items: center;
+
+
+        .header-first-item {
+
+
+            .header-first-text {
+            }
+
+            .header-first-item-list {
+                display: none;
+
+                .header-first-item-list:hover {
+                    display: block;
+                }
+            }
+
+        }
+    }
+
+
+    .header-second-list {
+        display: flex;
+        justify-content: space-between;
+        width: 185px;
+        align-items: center;
+
+        .header-second-item {
+
+
+            .header-toogle-button {
+
+                .img-sun{}
+
+                .img-moon{
+                    display: none;
+                }
+            }
+
+            .header-second-item {}
+        }
+    }
 }
